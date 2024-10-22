@@ -10,7 +10,7 @@ public class Product : BaseEntity
 
     public decimal Price { get; set; }
 
-    public required string PictureURL {get; set; }
+    public string PictureURL {get; set; } = "default.jpeg";
 
     public required string Type { get; set; }
 
